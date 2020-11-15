@@ -1,7 +1,22 @@
 @import 'variables';
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 body {
   background-color: $favColor;
+}
+
+.card-img-top {
+  max-width: 190px;
+}
+.card {
+  margin: 2px;
+  width: 190px;
+}
+
+.sharkTank {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
