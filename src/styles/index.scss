@@ -20,3 +20,18 @@ body {
   flex-wrap: wrap;
   margin: 0 auto;
 }
+
+.graveYard {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.graveStone {
+  background-image: url('./images/headstone.jpg');
+  height: 200px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+}

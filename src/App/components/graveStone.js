@@ -4,7 +4,13 @@ export default class graveStone extends Component {
   state = {};
 
   render() {
-    const { deadStudent } = this.props;
-    return <div className="Student">{deadStudent.name}</div>;
+    const { lastName, firstName } = this.props;
+    return (
+      <div className="Student">
+        <div className="graveStone">
+          {firstName} {lastName}
+        </div>
+      </div>
+    );
   }
 }
