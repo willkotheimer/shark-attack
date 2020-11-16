@@ -4,7 +4,7 @@ class liveStudent extends Component {
   state = {};
 
   render() {
-    const { lastName, firstName, image } = this.props;
+    const { lastName, firstName, image, key } = this.props;
     return (
       <div className="Student">
         <div className="card">

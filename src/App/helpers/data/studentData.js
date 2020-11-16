@@ -116,7 +116,7 @@ const AllStudents = [
     firstName: 'Summer',
     lastName: 'Duke',
     image: 'https://avatars2.githubusercontent.com/u/60371978?v=4',
-    isDead: true
+    isDead: false
   },
   {
     id: '18',
@@ -154,9 +154,10 @@ const dearlyBeloved = () =>
 const followTheLight = () => {
   const living = livingStudents();
   const livinglength = living.length;
-  const badLuck = Math.floor(Math.random() * livinglength);
-  console.warn(badLuck);
-  living[badLuck].isDead = true;
+  if (livinglength) {
+    const badLuck = Math.floor(Math.random() * livinglength);
+    living[badLuck].isDead = true;
+  }
 };
 
 export default {

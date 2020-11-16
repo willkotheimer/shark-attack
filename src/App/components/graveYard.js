@@ -16,9 +16,7 @@ class GraveYard extends Component {
     return (
       <>
         <h1>Grave Yard</h1>
-        <div className="graveYard">
-          <div>{this.makeDeadStudents()}</div>
-        </div>
+        <div className="graveYard">{this.makeDeadStudents()}</div>
       </>
     );
   }

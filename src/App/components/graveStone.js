@@ -8,7 +8,9 @@ export default class graveStone extends Component {
     return (
       <div className="Student">
         <div className="graveStone">
-          {firstName} {lastName}
+          <span className="name">
+            {firstName} {lastName}
+          </span>
         </div>
       </div>
     );
