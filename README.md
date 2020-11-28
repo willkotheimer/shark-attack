@@ -15,7 +15,7 @@ Bootstrap, React
 
 ## URL
 
-[https://objective-montalcini-00b52b.netlify.app/](https://objective-montalcini-00b52b.netlify.app/)
+[https://sharkie.netlify.app/](https://sharkie.netlify.app/)
 
 ## Screenshots:
 
